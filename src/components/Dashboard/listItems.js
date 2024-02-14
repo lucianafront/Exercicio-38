@@ -34,13 +34,13 @@ export const mainListItems = (
       <ListItemIcon>
         <BarChartIcon />
       </ListItemIcon>
-      <ListItemText primary="Reports" />
+      <ListItemText id='text_reports'  primary="Reports" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <ListItemText primary="Integrations" />
+      <ListItemText id='text_integrations' primary="Integrations" />
     </ListItemButton>
   </React.Fragment>
 );
@@ -54,13 +54,13 @@ export const secondaryListItems = (
       <ListItemIcon>
         <AssignmentIcon />
       </ListItemIcon>
-      <ListItemText primary="Current month" />
+      <ListItemText id='text_current-month' primary="Current month" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
         <AssignmentIcon />
       </ListItemIcon>
-      <ListItemText primary="Last quarter" />
+      <ListItemText id='text_last-quarter' primary="Last quarter" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
